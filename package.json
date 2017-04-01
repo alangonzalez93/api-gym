@@ -1,0 +1,21 @@
+{
+  "name": "api_gym",
+  "version": "1.0.0",
+  "description": "API REST to manage licenses and others features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Alan Gonzalez",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.2"
+  }
+}
