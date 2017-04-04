@@ -7,7 +7,7 @@ var express = require('express'),
   bodyParser = require('body-parser');
   
   mongoose.Promise = global.Promise;
-  mongoose.connect('mongodb://localhost/licenseDB'); 
+  mongoose.connect('mongodb://apirest:apirest@ds011298.mlab.com:11298/api-gym'); 
 
 
   app.use(bodyParser.urlencoded({ extended: true }));
